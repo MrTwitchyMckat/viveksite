@@ -1,0 +1,17 @@
+.mobileMenuContainer {
+  height: 100px;
+  background-color: #232323;
+}
+
+/* -- mobile menu links -- */
+.mobileMenuContainer a {
+  color: white;
+}
+
+.mobileMenuContainer a:hover,
+.mobileMenuContainer a:focus,
+.mobileMenuContainer a:active {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
