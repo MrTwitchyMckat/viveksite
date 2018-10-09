@@ -1,0 +1,7 @@
+.header-section {
+  background-image: url(../../img/header-main.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #fff !important;
+  height: 70vh;
+}
