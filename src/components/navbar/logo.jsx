@@ -12,8 +12,8 @@ class LogoHeader extends Component {
                 <img
                   className="mx-auto d-block logo"
                   src={logo}
-                  width="60"
-                  height="60"
+                  width="70"
+                  height="70"
                   alt=""
                 />
               </a>
