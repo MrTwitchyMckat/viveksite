@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700");
+
 .header-section {
   background-image: url(../../img/header-main.png);
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: fixed;
   background-color: #fff !important;
-  height: 70vh;
+  height: 90vh;
+}
+
+.no-pad {
+  padding: 0 !important;
+  overflow: hidden;
 }

@@ -5,7 +5,7 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid no-pad">
         <div className="jumbotron jumbotron-fluid header-section">
           <div className="row">
             <div className="col-md-5">
