@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600");
+
+.top-menu {
+  padding-top: 2%;
+}
+
+.pad-t2 {
+  padding-top: 20px;
+}
+
+a.nav-link {
+  font-family: "Poppins", sans-serif;
+  color: #ef6a6a;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link:active {
+  color: #ef6a6a;
+  font-weight: 600;
+}

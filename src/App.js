@@ -3,8 +3,7 @@ import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faFolder } from "@fortawesome/pro-regular-svg-icons";
 import { faHome } from "@fortawesome/pro-solid-svg-icons";
-import Navbar from "./components/navbar";
-import MobileMenu from "./components/MobileMenu/mobileMenu";
+import Navbar from "./components/navbar/navbar";
 
 library.add(faFolder, faHome);
 
@@ -13,7 +12,6 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <MobileMenu />
       </div>
     );
   }
