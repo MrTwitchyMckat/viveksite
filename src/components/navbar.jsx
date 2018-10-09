@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MobileMenuToggle from "./MobileMenu/mobileMenuToggle";
 
 class Navbar extends Component {
   state = {};
@@ -8,17 +8,17 @@ class Navbar extends Component {
     return (
       <div>
         <div>
-          <a className="navbar-brand" href="/">
-            <img src={logo} width="30" height="30" alt="" />
-          </a>
+          <MobileMenuToggle />
         </div>
-        <ul className="nav justify-content-center">
-          <li className="nav-item active">
-            <a className="nav-link" href="/">
-              <FontAwesomeIcon icon={"home"} />
-            </a>
-          </li>
-        </ul>
+        <div className="container">
+          <ul className="nav justify-content-center">
+            <li>
+              <a className="nav navbar-brand justify-content-center" href="/">
+                <img src={logo} width="60" height="60" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }

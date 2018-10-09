@@ -15,3 +15,27 @@
   font-weight: bold;
   text-decoration: none;
 }
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin-top: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.icon-bar {
+  width: 30px;
+  height: 3px;
+  background: white;
+}
