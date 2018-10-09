@@ -1,15 +1,25 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:500,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,600");
 
 .header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-image: url(../../img/header-main.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: fixed;
   background-color: #fff !important;
-  height: 90vh;
+  height: 92vh;
 }
 
 .no-pad {
   padding: 0 !important;
   overflow: hidden;
+}
+
+.header-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
 }
