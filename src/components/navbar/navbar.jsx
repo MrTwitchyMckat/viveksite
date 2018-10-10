@@ -10,16 +10,16 @@ class Navbar extends Component {
         <LogoHeader />
 
         <nav className="nav nav-fill pad-t2">
-          <a class="nav-item nav-link" href="/">
+          <a className="nav-item nav-link" href="/">
             Home
           </a>
-          <a class="nav-item nav-link" href="/">
+          <a className="nav-item nav-link" href="/">
             Portfolio
           </a>
-          <a class="nav-item nav-link" href="/">
+          <a className="nav-item nav-link" href="/">
             About
           </a>
-          <a class="nav-item nav-link" href="/">
+          <a className="nav-item nav-link" href="/">
             Contact
           </a>
         </nav>

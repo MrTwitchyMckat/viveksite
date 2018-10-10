@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
+
+.my-work {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #f0696a;
+}
