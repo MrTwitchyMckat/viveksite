@@ -7,12 +7,13 @@ class Header extends Component {
     return (
       <div className="container-fluid no-pad">
         <div className="jumbotron jumbotron-fluid header-section">
-          <div className="row">
+          <div className="container">
             <div className="col-md-5">
-              <h1>Hello</h1>
+            <h3 className="header-text text-center">Hi My name is</h3>
+              <h1 className="header-text text-center">Vivek Bhardwaj</h1>
             </div>
             <div className="col-md-7" />
-          </div>
+            </div>
         </div>
       </div>
     );
