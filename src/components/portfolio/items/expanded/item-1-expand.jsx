@@ -1,9 +1,17 @@
 import React, { Component } from "react";
+import "./expanded.css";
+import img1 from "../../../../img/smallImg/effortless-small.jpg";
 
 class ItemOneExpand extends Component {
   state = {};
   render() {
-    return <div className="container-fluid" />;
+    return(
+      <div className="container-fluid full-screen">
+        <div className="row">
+          <img src={img1} alt="effortless"/>
+        </div>
+      </div>
+    );
   }
 }
 

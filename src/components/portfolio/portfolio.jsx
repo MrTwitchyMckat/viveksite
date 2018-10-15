@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./portfolio.css";
+
+//Import all Items
 import ItemOne from "./items/item-1";
 import ItemTwo from "./items/item-2";
 import ItemThree from "./items/item-3";
@@ -8,6 +10,11 @@ import ItemFive from "./items/item-5";
 import ItemSix from "./items/item-6";
 import ItemSeven from "./items/item-7";
 import ItemEight from "./items/item-8";
+
+//Import Expand Items
+import ExpandOne from "./items/expanded/item-1-expand";
+
+
 
 class Portfolio extends Component {
   state = {
@@ -42,6 +49,7 @@ class Portfolio extends Component {
           <ItemSeven />
           <ItemEight />
         </div>
+        <ExpandOne />
       </div>
     );
   }
