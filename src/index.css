@@ -7,6 +7,20 @@ body {
   background-color: #fff;
 }
 
+/* -- Text Color -- */
+.red-text {
+  color: #f2696b;
+}
+
+.white-text {
+  color: #fff;
+}
+
+/* -- Helper Classes --*/
+.hidden-overflow {
+  overflow: hidden;
+}
+
 /* -- animation presets --*/
 
 /* FADE IN LEFT */
