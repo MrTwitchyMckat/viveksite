@@ -9,16 +9,35 @@ body {
 
 /* -- Text Color -- */
 .red-text {
-  color: #f2696b;
+  color: #f2696b !important;
 }
 
 .white-text {
-  color: #fff;
+  color: #fff !important;
 }
 
 /* -- Helper Classes --*/
 .hidden-overflow {
   overflow: hidden;
+}
+
+.pad-t1 {
+  padding-top: 1%;
+}
+.pad-t2 {
+  padding-top: 2%;
+}
+.pad-t3 {
+  padding-top: 3%;
+}
+.pad-t4 {
+  padding-top: 4%;
+}
+.pad-t5 {
+  padding-top: 5%;
+}
+.pad-t6 {
+  padding-top: 6%;
 }
 
 /* -- animation presets --*/

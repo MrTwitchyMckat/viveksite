@@ -1,17 +1,22 @@
 import React, { Component } from "react";
 import "./expanded.css";
-import img1 from "../../../../img/smallImg/effortless-small.jpg";
-
+import EffortlessMockup from "../../../../img/largeImg/effotless-mockup.png";
 
 class ItemOneExpand extends Component {
   state = {};
   render() {
-    return(
+    return (
       <div className="container-fluid full-screen">
-      <div className="col-lg-12">
-        <h1 class="white-text text-center">EFFORTLESS IT</h1>
-        <img src={img1} class="text-center" alt="effortless"/>
-      </div>
+        <div className="col-lg-12 pad-t3">
+          <h1 class="text-center red-text">
+            EFFORTLESS <strong>IT</strong>
+          </h1>
+          <img
+            src={EffortlessMockup}
+            class="img-fluid mx-auto d-block"
+            alt="effortless"
+          />
+        </div>
       </div>
     );
   }
