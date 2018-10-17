@@ -1,7 +1,15 @@
 .full-screen {
     display: flex;
+    position: fixed;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
+    background-color: black;
+    z-index: 100;
+}
+
+.fit-content {
+    text-align: center;
+    height: fit-content;
 }
