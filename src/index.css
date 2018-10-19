@@ -16,6 +16,10 @@ body {
   color: #fff !important;
 }
 
+.grey-text {
+  color: #787878;
+}
+
 /* -- Helper Classes --*/
 .hidden-overflow {
   overflow: hidden;

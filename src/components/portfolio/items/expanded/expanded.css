@@ -25,5 +25,22 @@ h1 strong {
 }
 
 h3.ocgHeader {
-  font-family: 'Poppins'
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #f2696b !important;
+  text-decoration: none !important;
+  transition: ease all 1s;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #f2696b;
+  text-decoration: none !important;
 }
