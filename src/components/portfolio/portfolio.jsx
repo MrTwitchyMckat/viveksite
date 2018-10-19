@@ -49,6 +49,7 @@ class Portfolio extends Component {
           <ItemSeven />
           <ItemEight />
         </div>
+        
         <ExpandOne />
       </div>
     );

@@ -1,12 +1,13 @@
 .full-screen {
   display: flex;
-  position: absolute;
-  height: 200%;
-  width: 100%;
+  position: fixed;
+  height: 100%;
+  width: 100% !important;
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.95);
   z-index: 100;
+  overflow: scroll;
 }
 
 h1 {
@@ -21,4 +22,8 @@ h1 strong {
 
 .fit-content {
   text-align: center;
+}
+
+h3.ocgHeader {
+  font-family: 'Poppins'
 }
