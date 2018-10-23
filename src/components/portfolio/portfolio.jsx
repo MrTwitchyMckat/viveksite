@@ -11,15 +11,8 @@ import ItemSix from "./items/item-6";
 import ItemSeven from "./items/item-7";
 import ItemEight from "./items/item-8";
 
-//Import Expand Items
-import ExpandOne from "./items/expanded/item-1-expand";
-
-
-
 class Portfolio extends Component {
-  state = {
-    modalOpen: false
-  };
+  state = {};
 
   render() {
     return (
@@ -49,8 +42,6 @@ class Portfolio extends Component {
           <ItemSeven />
           <ItemEight />
         </div>
-        
-        <ExpandOne />
       </div>
     );
   }
