@@ -20,7 +20,7 @@ class Navbar extends Component {
           <a className="nav-item nav-link" href="/">
             About
           </a>
-          <a className="nav-item nav-link" href={Resume} download={Resume}>
+          <a className="nav-item nav-link" href={Resume} target="_blank" rel="noopener norefferer">
             Resume
           </a>
           <a className="nav-item nav-link" href="/">

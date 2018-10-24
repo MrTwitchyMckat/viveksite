@@ -12,8 +12,6 @@ import ItemSeven from "./items/item-7";
 import ItemEight from "./items/item-8";
 
 class Portfolio extends Component {
-  state = {};
-
   render() {
     return (
       <div
@@ -32,7 +30,7 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
-        <div className="row hidden-overflow">
+        <div className="row hidden-overflow padding-lr">
           <ItemOne />
           <ItemTwo />
           <ItemThree />
