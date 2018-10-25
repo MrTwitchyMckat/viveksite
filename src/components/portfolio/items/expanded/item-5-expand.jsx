@@ -7,7 +7,7 @@ import EffortlessScroll from "../../../../img/largeImg/effortless-home-scroll.gi
 
 import CloseButtonX from "./closeButtonX";
 
-class ItemOneExpand extends Component {
+class ItemFiveExpanded extends Component {
   render() {
     let fullScreenClasses = "full-screen";
     if (this.props.expanded) {
@@ -25,11 +25,17 @@ class ItemOneExpand extends Component {
           <h3 className="ocgHeader">
             <em>Designed at</em>
           </h3>
+          <a
+            href="http://ocgcreative.com"
+            rel="noopener noreffer"
+            target="blank"
+          >
             <img
               src={OCGlogo}
               className="img-fluid mx-auto d-block"
               alt="OCG Creative"
             />
+          </a>
           <img
             src={EffortlessMockup}
             className="img-fluid mx-auto d-block"
@@ -81,4 +87,4 @@ class ItemOneExpand extends Component {
   }
 }
 
-export default ItemOneExpand;
+export default ItemFiveExpanded;
