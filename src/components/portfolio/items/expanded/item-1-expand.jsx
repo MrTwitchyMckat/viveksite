@@ -40,7 +40,7 @@ class ItemOneExpand extends Component {
             alt="effortless webdesign"
           />
           <a
-            href="http://ocgcreative.com"
+            href="http://effortlessit.xyz"
             rel="noopener noreffer"
             target="blank"
           >

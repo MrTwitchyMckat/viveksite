@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import "./expanded.css";
-import EffortlessMockup from "../../../../img/largeImg/effotless-mockup.png";
 import OCGlogo from "../../../../img/largeImg/OCG_LOGO.png";
-import EffortlessLogo from "../../../../img/largeImg/Effortless_IT_Consulting_Logo_RGB.png";
-import EffortlessScroll from "../../../../img/largeImg/effortless-home-scroll.gif";
-
 import CloseButtonX from "./closeButtonX";
+import JensenMockup from "../../../../img/largeImg/jensen-mockup.png";
 
 class ItemTwoExpanded extends Component {
   render() {
@@ -20,50 +17,36 @@ class ItemTwoExpanded extends Component {
             <CloseButtonX onClick={this.props.closeHandler} />
           </div>
           <h1 className="text-center red-text pad-t2">
-            EFFORTLESS <strong>IT</strong>
+            JENSEN <strong>ELECTRIC</strong>
           </h1>
           <h3 className="ocgHeader">
             <em>Designed at</em>
           </h3>
+          <img
+            src={OCGlogo}
+            className="img-fluid mx-auto d-block"
+            alt="OCG Creative"
+          />
+          <img
+            src={JensenMockup}
+            className="img-fluid mx-auto d-block pad-t3 pad-b3"
+            alt="jensen electric mockup"
+          />
           <a
-            href="http://ocgcreative.com"
+            href="http://jensenelectricnv.com"
             rel="noopener noreffer"
             target="blank"
           >
-            <img
-              src={OCGlogo}
-              className="img-fluid mx-auto d-block"
-              alt="OCG Creative"
-            />
-          </a>
-          <img
-            src={EffortlessMockup}
-            className="img-fluid mx-auto d-block"
-            alt="effortless"
-          />
-          <img
-            src={EffortlessLogo}
-            className="img-fluid mx-auto d-block"
-            alt="effortless webdesign"
-          />
-          <img
-            src={EffortlessScroll}
-            className="img-fluid mx-auto d-block"
-            alt="effortless webdesign"
-          />
-          <a
-            href="http://ocgcreative.com"
-            rel="noopener noreffer"
-            target="blank"
-          >
-            <h1 className="text-center bottom-link">WWW.EFFORTLESSIT.XYZ</h1>
+            <h1 className="text-center bottom-link">
+              WWW.JENSENELECTRICNV.COM
+            </h1>
           </a>
           <div className="row">
             <div className="col-md-3">
               <br />
             </div>
-            <div className="col-md-5">
-              <p className="grey-text">
+            <div className="col-md-5 align-center">
+              <p className="grey-text align-center">
                 Designed using WordPress, Effortless IT was a website that came
                 to me naturally. The gradient color theme as well as the font
                 were pulled from the logo and business cards. This made
