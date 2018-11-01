@@ -50,7 +50,7 @@ class ItemOneExpand extends Component {
             <div className="col-md-3">
               <br />
             </div>
-            <div className="col-md-5 align-center">
+            <div className="col-md-6 align-center">
               <p className="grey-text align-center">
                 Effortless IT was an IT startup who needed fresh branding, and a
                 website that show cased their tech abilities. <br />

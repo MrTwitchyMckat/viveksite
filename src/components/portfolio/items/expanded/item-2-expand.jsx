@@ -45,16 +45,9 @@ class ItemTwoExpanded extends Component {
             <div className="col-md-3">
               <br />
             </div>
-            <div className="col-md-5 align-center">
+            <div className="col-md-6 align-center">
               <p className="grey-text align-center">
-                Designed using WordPress, Effortless IT was a website that came
-                to me naturally. The gradient color theme as well as the font
-                were pulled from the logo and business cards. This made
-                development a breeze since there was really no guess work
-                involved design-wise. From there graphics were made on a page by
-                page basis and the site came together nicely. Just to add some
-                flare the we used Typed JS on a few pages to add the{" "}
-                <em>"technology vibe."</em>
+                Another website designed using WordPress. Following an electric theme I used CSS clipping paths to create a "bolt" shape on various blocks. This didn't work on all browsers unfortunately, so I worte media queries for IE to make them regular blocks. As for Firefox I just needed to make them SVG shapes considering it doesn't support clipping paths. The site is fully optimized for mobile use, and everything in between. 
               </p>
             </div>
             <div className="col-md-3">
