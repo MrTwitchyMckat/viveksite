@@ -1,5 +1,5 @@
 .about-sec {
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
   background-color: #ee6a6a;
 }
@@ -14,6 +14,10 @@ h1.about-header {
 }
 h1 strong .about-header {
   font-weight: 700;
+  color: #fff;
+}
+
+p.content {
   color: #fff;
 }
 

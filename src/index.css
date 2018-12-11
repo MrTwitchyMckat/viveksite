@@ -44,6 +44,10 @@ body {
   padding-top: 6%;
 }
 
+.inner-content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 /* -- animation presets --*/
 
 /* FADE IN LEFT */
