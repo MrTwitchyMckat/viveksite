@@ -1,4 +1,22 @@
 .about-sec {
+  height: 60vh;
+  overflow: hidden;
   background-color: #ee6a6a;
-  padding: 5% 7%;
+}
+
+.about-header {
+  padding: 3%;
+}
+h1.about-header {
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 5px;
+}
+h1 strong .about-header {
+  font-weight: 700;
+  color: #fff;
+}
+
+.profile {
+  padding-left: 0px !important;
 }
