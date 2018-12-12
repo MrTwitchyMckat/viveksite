@@ -6,7 +6,8 @@ import { faHome } from "@fortawesome/pro-solid-svg-icons";
 import Navbar from "./components/navbar/navbar";
 import Header from "./components/header/header";
 import Portfolio from "./components/portfolio/portfolio";
-import About from "./components/about/about"
+import About from "./components/about/about";
+import Footer from "./components/footer/Footer";
 
 library.add(faFolder, faHome);
 
@@ -18,6 +19,7 @@ class App extends Component {
         <Header />
         <Portfolio />
         <About />
+        <Footer />
       </div>
     );
   }
