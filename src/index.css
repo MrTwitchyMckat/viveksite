@@ -120,3 +120,11 @@ body {
     opacity: 1;
   }
 }
+
+/* -- Highlight color -- */
+::selection {
+  background: #e75252; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #e75252; /* Gecko Browsers */
+}

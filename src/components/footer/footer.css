@@ -1,0 +1,46 @@
+.intouch {
+  font-weight: 500;
+  color: #f0696a;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intouch strong {
+  font-weight: 700;
+}
+
+.footer-text {
+  padding-top: 7%;
+}
+
+.contact-section {
+  padding-top: 3%;
+  padding-bottom: 7%;
+}
+
+.contact-icons {
+  font-size: 3rem;
+}
+
+.contact-link {
+  font-size: 2rem;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.inline {
+  display: inline-flex;
+  color: #2e414e !important;
+  padding-bottom: 20px;
+}
+
+.inline:hover,
+.inline:focus,
+.inline:active {
+  color: #f0696a !important;
+}
+
+.copyright {
+  bottom: 0;
+  color: #f0696a !important;
+}
