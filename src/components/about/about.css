@@ -1,5 +1,4 @@
 .about-sec {
-  height: 75vh;
   overflow: hidden;
   background-color: #ee6a6a;
 }
@@ -23,4 +22,36 @@ p.content {
 
 .profile {
   padding-left: 0px !important;
+  background-image: url("https://picsum.photos/600/900/?random");
+  background-position: center center;
+}
+
+.row {
+  height: 100%;
+}
+
+.inner-content {
+  padding-bottom: 3%;
+}
+
+@media only screen and (min-width: 1201px) {
+  .show-mobile {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile {
+    padding-top: 20px;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-image: none;
+  }
+
+  .profile-content {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }

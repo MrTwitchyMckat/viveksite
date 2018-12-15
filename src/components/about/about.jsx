@@ -8,10 +8,14 @@ class About extends Component {
       <div className="pad-t4 pad-b4">
         <div className="container-fluid about-sec">
           <div className="row">
-            <div className="col-5 profile">
-              <img src="https://picsum.photos/800/800/?random" alt="yeet" />
+            <div className="col-3 profile">
+              <img
+                className="show-mobile text-center d-block mx-auto"
+                src="http://picsum.photos/400/400"
+                alt="profile"
+              />
             </div>
-            <div className="col-7">
+            <div className="col-9 profile-content">
               <h1 className="text-center about-header">
                 ABOUT <strong>ME</strong>
               </h1>

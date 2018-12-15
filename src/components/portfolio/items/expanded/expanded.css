@@ -45,6 +45,12 @@ a {
   transition: ease all 1s;
 }
 
+@media only screen and (max-width: 768px) {
+  a h1 {
+    font-size: 1.2rem !important;
+  }
+}
+
 a:hover,
 a:focus,
 a:active {
