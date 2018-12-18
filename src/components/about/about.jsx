@@ -61,8 +61,8 @@ class About extends Component {
                   to front end development. Getting beautiful looking content in
                   front of your end user as fast as possible is one of the best
                   things you could do. Although this strategy doesn’t always
-                  work out, it is one that I have followed using far too many
-                  sites filled with unnecessary frills and JavaScript.
+                  work out, it is one that I have followed after using far too
+                  many sites filled with unnecessary frills and JavaScript.
                 </p>
               </div>
             </div>

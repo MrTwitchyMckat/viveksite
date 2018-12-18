@@ -54,12 +54,18 @@ class Footer extends Component {
                 </a>
               </div>
               <div className="col-md-6 offset-md-3 copyright">
+                <img
+                  src={Kimono}
+                  className="show-mobile"
+                  style={{ height: 600, marginLeft: -30, marginBottom: 30 }}
+                  alt="yet"
+                />
                 <p>
                   Copyright {currentYear} Vivek Bhardwaj | All Rights Reserved
                 </p>
               </div>
             </div>
-            <div className="col-5">
+            <div className="col-5 hide-mobile">
               <img src={Kimono} style={{ height: 600 }} alt="yet" />
             </div>
           </div>

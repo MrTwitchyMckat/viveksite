@@ -41,6 +41,42 @@
 }
 
 .copyright {
+  position: relative;
   bottom: 0;
   color: #f0696a !important;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-icons {
+    font-size: 2rem;
+  }
+
+  .contact-link {
+    font-size: 1.1rem;
+  }
+
+  .copyright {
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .footer-text {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  .show-mobile {
+    display: block;
+  }
 }
