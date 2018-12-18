@@ -9,6 +9,7 @@ import Header from "./components/header/header";
 import Portfolio from "./components/portfolio/portfolio";
 import About from "./components/about/about";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/totop/totop";
 
 library.add(faFolder, faHome, faEnvelope, faPhone, fab);
 
@@ -21,6 +22,7 @@ class App extends Component {
         <Portfolio />
         <About />
         <Footer />
+        <ScrollToTop />
       </div>
     );
   }

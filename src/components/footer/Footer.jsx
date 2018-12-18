@@ -2,11 +2,15 @@ import React, { Component } from "react";
 import "./footer.css";
 import Kimono from "../../img/largeImg/kimono-girl.png";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faEnvelope, faPhone } from "@fortawesome/pro-solid-svg-icons";
+import {
+  faEnvelope,
+  faPhone,
+  faArrowAltCircleUp
+} from "@fortawesome/pro-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(fab, faEnvelope, faPhone);
+library.add(fab, faEnvelope, faPhone, faArrowAltCircleUp);
 
 class Footer extends Component {
   state = {};
@@ -15,7 +19,7 @@ class Footer extends Component {
 
     return (
       <div>
-        <div className="container-fluid">
+        <div className="container-fluid" id="contact">
           <div className="row">
             <div className="col-7 footer-text">
               <h1 className="intouch">

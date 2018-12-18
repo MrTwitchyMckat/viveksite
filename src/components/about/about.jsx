@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import "./about.css";
+import Vivek from "../../img/largeImg/vivek-profile.png";
 
 class About extends Component {
   state = {};
   render() {
     return (
-      <div className="pad-t4 pad-b4">
+      <div className="pad-t4 pad-b4" id="about">
         <div className="container-fluid about-sec">
           <div className="row">
             <div className="col-3 profile">
               <img
                 className="show-mobile text-center d-block mx-auto"
-                src="http://picsum.photos/400/400"
+                src={Vivek}
                 alt="profile"
               />
             </div>

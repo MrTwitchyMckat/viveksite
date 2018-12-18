@@ -22,8 +22,8 @@ p.content {
 
 .profile {
   padding-left: 0px !important;
-  background-image: url("https://picsum.photos/600/900/?random");
-  background-position: center center;
+  background-image: url("../../img/largeImg/vivekbg.jpg");
+  background-position: top center;
 }
 
 .row {

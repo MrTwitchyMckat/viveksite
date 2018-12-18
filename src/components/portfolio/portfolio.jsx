@@ -20,6 +20,7 @@ class Portfolio extends Component {
           paddingBottom: 10
         }}
         className="hidden-overflow"
+        id="portfolio"
       >
         <div className="container pad-b3">
           <div className="row">
