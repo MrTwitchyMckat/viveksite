@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <div className="pad-t4 pad-b4" id="about">
         <div className="container-fluid about-sec">
-          <div className="row">
+          <div className="row big-row">
             <div className="col-3 profile">
               <img
                 className="show-mobile text-center d-block mx-auto"

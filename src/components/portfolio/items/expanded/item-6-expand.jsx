@@ -28,9 +28,6 @@ class ItemSixExpanded extends Component {
             <div className="col-md-3">
               <br />
             </div>
-            <div className="col-md-5">
-              <p className="grey-text" />
-            </div>
             <div className="col-md-3">
               <br />
             </div>
