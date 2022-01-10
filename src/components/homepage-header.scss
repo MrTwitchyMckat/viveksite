@@ -15,5 +15,15 @@
 .homepage-header__title {
   font-family: 'Poppins', sans-serif;
   font-size: rem(100px);
-  color: $color-white;
+  position: absolute;
+  &.--red {
+    color: $color-red;
+  }
+  &.--blue {
+    color: $color-blue;
+  }
+  &.--white {
+    color: $color-white;
+    z-index: 1;
+  }
 }
