@@ -1,0 +1,153 @@
+.nav {
+  background: #000;
+  padding: 20px 0;
+  height: 80px;
+  display: flex;
+}
+
+.nav__logo-container {
+  position: relative;
+  svg {
+    position: absolute;
+  }
+}
+
+.logo1 {
+  z-index: 1;
+}
+.logo2 {
+  animation: logo2 3.5s infinite;
+}
+.logo3 {
+  animation: logo3 3.5s infinite;
+}
+
+// Keyframes 
+
+@keyframes logo2 {
+  0% {
+    opacity: 0;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+  }
+  40% {
+    opacity: 0;
+    left: auto;
+    transform: none;
+  }
+  41% {
+    opacity: 1;
+    left: 3px;
+    top: 2px;
+    transform: skew(-3deg, 0deg);
+  }
+  47% {
+    opacity: 0;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  80% {
+    opacity: 0;
+    left: auto;
+    top: auto;
+  }
+  81% {
+    opacity: 1;
+    left: 3px;
+    top: 3px;
+    transform: none;
+  }
+  84% {
+    opacity: 1;
+    left: 3px;
+    top: 3px;
+    transform: skew(5deg, -15deg);
+  }
+  87% {
+    opacity: 1;
+    left: 6px;
+    top: 0px;
+    transform: none;
+  }
+  88% {
+    opacity: 0;
+    left: auto;
+    top: auto;
+  }
+  100% {
+    opacity: 0;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+  }
+}
+@keyframes logo3 {
+  0% {
+    opacity: 0;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+  }
+  40% {
+    opacity: 0;
+    left: auto;
+    transform: none;
+  }
+  41% {
+    opacity: 1;
+    left: -3px;
+    top: 5px;
+    transform: skew(2deg, -2deg);
+    
+  }
+  47% {
+    opacity: 0;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  80% {
+    opacity: 0;
+    left: auto;
+    top: auto;
+  }
+  81% {
+    opacity: 1;
+    left: -3px;
+    top: -3px;
+  }
+  84% {
+    opacity: 1;
+    left: -3px;
+    top: -3px;
+    transform: none;
+  }
+  87% {
+    opacity: 1;
+    left: -6px;
+    top: 5px;
+    transform: skew(-3deg, -10deg);
+  }
+  88% {
+    opacity: 0;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+  }
+}
