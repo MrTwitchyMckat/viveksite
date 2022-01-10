@@ -1,0 +1,15 @@
+// Color variables
+$color-white: #ffffff;
+$color-black: #000000;
+$color-red: #ff4553;
+$color-blue: #66dbff;
+
+// Mixins
+
+// Rem converter
+@function stripUnit($value) {
+  @return $value / ($value * 0 + 1);
+}
+@function rem($pxValue) {
+  @return #{stripUnit($pxValue) / stripUnit(16px)}rem;
+}

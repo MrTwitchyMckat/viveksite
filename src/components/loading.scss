@@ -1,6 +1,8 @@
+@import '../variables.scss';
+
 .loading {
   background: #000;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -21,15 +23,15 @@ p {
   line-height: 0;
 }
 .glitch1 {
-  color: #fff;
+  color: $color-white;
   z-index: 2;
 }
 .glitch2 {
-  color: #66dbff;
+  color: $color-blue;
   animation: glitch2 2s infinite;
 }
 .glitch3 {
-  color: #ff4553;
+  color: $color-red;
   animation: glitch3 2s infinite;
 }
 
