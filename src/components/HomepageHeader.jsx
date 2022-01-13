@@ -2,26 +2,33 @@ import React from 'react';
 import './homepage-header.scss';
 
 class HomepageHeader extends React.Component {
-  componentDidMount() {
-    // Get Elements
-    const tilt = document.querySelector('.js-tilt');
+  translateText(event) {
+    // Get elements
+    const box = document.querySelector('.js-tilt');
     const redText = document.querySelector('.js-red');
     const blueText = document.querySelector('.js-blue');
 
-    tilt.addEventListener('mousemove', function (event) {
-      // Get title box
-      const box = document.querySelector('.js-tilt');
-      
-      // Values for calculations
-      const boxWidth = box.offsetWidth;
-      const boxHeight = box.offsetHeight;
-      const centerX = box.offsetLeft - boxWidth/2;
-      const centerY = box.offsetTop - boxHeight/2;
-      const mouseX = event.clientX - centerX;
-      const mouseY = event.clientY - centerY;
+    // Values for calculations
+    const boxWidth = box.offsetWidth;
+    const boxHeight = box.offsetHeight;
+    const centerX = box.offsetLeft - boxWidth/2;
+    const centerY = box.offsetTop - boxHeight/2;
+    const mouseX = event.clientX - centerX;
+    const mouseY = event.clientY - centerY;
+    const positionX = mouseX/Math.abs(centerX);
+    const positionY = mouseY/Math.abs(centerY); 
+    const translateX = 3*(3/positionX);
+    const translateY = 3*(3/positionY);
+
+    redText.style.transform = `translate(${-1 * translateX}px, ${translateY}px)`;
+    blueText.style.transform = `translate(${translateX}px, ${-1 * translateY}px)`;
+  }
   
-      console.log(mouseX/centerX, mouseY/centerY);
-    });
+  componentDidMount() {
+    // Get Elements
+    const tilt = document.querySelector('.js-tilt');
+
+    tilt.addEventListener('mousemove', this.translateText);
   }
   render() { 
     return( 
