@@ -1,6 +1,9 @@
 import React from 'react';
 import './homepage-header.scss';
 
+// Import Components
+import Contact from './Contact';
+
 class HomepageHeader extends React.Component {
   translateText(event) {
     // Get elements
@@ -20,6 +23,7 @@ class HomepageHeader extends React.Component {
     const translateX = 3*(3/positionX);
     const translateY = 3*(3/positionY);
 
+    // Apply calculated translate values
     redText.style.transform = `translate(${-1 * translateX}px, ${translateY}px)`;
     blueText.style.transform = `translate(${translateX}px, ${-1 * translateY}px)`;
   }
@@ -28,7 +32,10 @@ class HomepageHeader extends React.Component {
     // Get Elements
     const tilt = document.querySelector('.js-tilt');
 
-    tilt.addEventListener('mousemove', this.translateText);
+    // Only run if above mobile screen size.
+    if (window.innerWidth > 768) {
+      tilt.addEventListener('mousemove', this.translateText);
+    }
   }
   render() { 
     return( 
@@ -40,6 +47,11 @@ class HomepageHeader extends React.Component {
             <h1 className="homepage-header__title --red js-red">Hi, I'm a developer <br/>doing internet stuff.</h1>
             <h1 className="homepage-header__title --blue js-blue">Hi, I'm a developer <br/>doing internet stuff.</h1>
           </div>
+          <Contact tagline={'Let\'s become internet bffs?'} />
+        </div>
+        <div className="homepage-header__projects">
+          <a href="#projects">Projects Below</a>
+          <p className="arrow">↓</p>
         </div>
       </div>
     </div>

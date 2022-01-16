@@ -1,11 +1,36 @@
 body {
   background-color: #000;
+  background-image: url('./assets/bg-tile.png');
+  background-repeat: repeat;
   padding: 0;
   margin: 0;
+  animation: bgAnimation 10s infinite;
 }
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
+}
+
+.copied {
+  background: #fff;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+// Keyframes 
+
+@keyframes bgAnimation {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  50% {
+    background-position: -15px 25px;
+  }
+
+  100% {
+    background-position: 0px 0px;
+  }
 }
