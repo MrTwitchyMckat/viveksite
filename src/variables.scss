@@ -6,6 +6,11 @@ $color-blue: #66dbff;
 
 // Mixins
 
+// Calc random value between negative and postive value
+@function randVal($value) {
+  @return random($value) - $value;
+}
+
 // Rem converter
 @function stripUnit($value) {
   @return $value / ($value * 0 + 1);

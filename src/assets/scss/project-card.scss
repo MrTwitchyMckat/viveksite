@@ -1,4 +1,5 @@
 @import '../../variables.scss';
+@import 'include-media/dist/include-media';
 
 .project-card {
   display: flex;
@@ -6,7 +7,11 @@
   align-items: center;
   position: relative;
   min-height: 400px;
-  padding: 0;
+  padding: 20px 0;
+  @include media('<=850px') {
+    padding: 0;
+    min-height: 170px;
+  }
 }
 
 .project-card__container {
@@ -16,6 +21,12 @@
   align-items: center;
   position: relative;
   text-decoration: none;
+  &:hover {
+    .project-card__title {
+      animation: glitchy 1.5s infinite;
+      animation-timing-function: step-start;
+    }
+  }
 }
 
 .project-card__title {
@@ -25,6 +36,16 @@
   text-decoration: none !important;
   text-transform: uppercase;
   font-size: rem(120px);
+  animation: floatingText 7s infinite;
+  animation-timing-function: ease;
+  white-space: nowrap;
+  @include media('<=1200px') {
+    font-size: rem(90px);
+  }
+  @include media('<=850px') {
+    font-size: rem(50px);
+    white-space: initial;
+  }
 }
 
 .project-card__background {
@@ -32,13 +53,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: floatingBackground 10s infinite;
+  animation: floatingBackground 6s infinite;
   animation-timing-function: linear;
 }
 
 .project-card__image {
   img {
     max-width: 750px;
+    @include media('<=1200px') {
+      max-width: 600px;
+    }
+    @include media('<=850px') {
+      max-width: 300px;
+    }
   }
 }
 
@@ -49,12 +76,58 @@
     transform: translate(0px, 0px);
   }
   25% {
-    transform: translate(9px, 8px);
+    transform: translate(#{randVal(5)}px, #{randVal(5)}px);
   }
   50% {
-    transform: translate(-10px, -5px);
+    transform: translate(#{randVal(5)}px, #{randVal(5)}px);
+  }
+  75% {
+    transform: translate(#{randVal(5)}px, #{randVal(5)}px);
   }
   100% {
     transform: translate(0px, 0px);
+  }
+}
+
+@keyframes floatingText{
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  25% {
+    transform: translate(#{randVal(5)}px, #{randVal(5)}px) rotate(#{randVal(1)}deg);
+  }
+  50% {
+    transform: translate(#{randVal(5)}px, #{randVal(5)}px) rotate(#{randVal(1)}deg);
+  }
+  75% {
+    transform: translate(#{randVal(5)}px, #{randVal(5)}px) rotate(#{randVal(1)}deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0);
+  }
+}
+
+@keyframes glitchy {
+  0% {
+    clip-path: 0;
+    transform: translateY(0);
+  }
+  1% {
+    clip-path: polygon(0% 93%,4% 93%,4% 52%,76% 52%,76% 48%,1% 48%,1% 57%,1% 57%,1% 51%,71% 51%,71% 26%,58% 26%,58% 80%,80% 80%,80% 15%,64% 15%,64% 67%,72% 67%,72% 79%,58% 79%,58% 0%,59% 0%,59% 90%,89% 90%,89% 49%,10% 49%,10% 56%,49% 56%,49% 4%,71% 4%,71% 50%,57% 50%,57% 71%,65% 71%,65% 23%,75% 23%,75% 11%,39% 11%,39% 66%,7% 66%,7% 95%,20% 95%,20% 45%,5% 45%,5% 43%,5% 43%,5% 93%,14% 93%,14% 36%,12% 36%,12% 50%,88% 50%,88% 18%,19% 18%,19% 43%,33% 43%,33% 91%,43% 91%);
+  }
+  2% {
+    clip-path: 0;
+  }
+  7% {
+    clip-path: 0;
+  }
+  8% {
+    clip-path: polygon(0% 29%,89% 29%,89% 43%,6% 43%,6% 58%,94% 58%,94% 25%,24% 25%,24% 13%,77% 13%,77% 34%,67% 34%,67% 84%,47% 84%,47% 46%,12% 46%,12% 10%,99% 10%,99% 23%,5% 23%,5% 55%,82% 55%,82% 40%,0% 40%,0% 8%,55% 8%,55% 41%,34% 41%,34% 21%,56% 21%,56% 89%,65% 89%,65% 56%,79% 56%,79% 1%,74% 1%,74% 0%,1% 0%,1% 30%,43% 30%,43% 68%,16% 68%,16% 11%,98% 11%,98% 47%,50% 47%,50% 75%,56% 75%,56% 56%,34% 56%);
+  }
+  9% {
+    clip-path: 0;
+  }
+  100% {
+    clip: 0;
   }
 }
