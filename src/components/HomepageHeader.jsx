@@ -1,5 +1,5 @@
 import React from 'react';
-import './homepage-header.scss';
+import '../assets/scss/homepage-header.scss';
 
 // Import Components
 import Contact from './Contact';
@@ -20,8 +20,8 @@ class HomepageHeader extends React.Component {
     const mouseY = event.clientY - centerY;
     const positionX = mouseX/Math.abs(centerX);
     const positionY = mouseY/Math.abs(centerY); 
-    const translateX = 3*(3/positionX);
-    const translateY = 3*(3/positionY);
+    const translateX = Math.max(1, Math.min(10, 9/positionX));
+    const translateY = Math.max(1, Math.min(10, 9/positionY));
 
     // Apply calculated translate values
     redText.style.transform = `translate(${-1 * translateX}px, ${translateY}px)`;

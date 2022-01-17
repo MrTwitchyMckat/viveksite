@@ -1,0 +1,60 @@
+@import '../../variables.scss';
+
+.project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 400px;
+  padding: 0;
+}
+
+.project-card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.project-card__title {
+  z-index: 1;
+  font-family: 'Poppins', sans-serif;
+  color: $color-white;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: rem(120px);
+}
+
+.project-card__background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: floatingBackground 10s infinite;
+  animation-timing-function: linear;
+}
+
+.project-card__image {
+  img {
+    max-width: 750px;
+  }
+}
+
+// Keyframes 
+
+@keyframes floatingBackground {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(9px, 8px);
+  }
+  50% {
+    transform: translate(-10px, -5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
