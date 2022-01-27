@@ -47,7 +47,7 @@ class HomepageHeader extends React.Component {
             <h1 className="homepage-header__title --red js-red">Hi, I'm a developer <br/>doing internet stuff.</h1>
             <h1 className="homepage-header__title --blue js-blue">Hi, I'm a developer <br/>doing internet stuff.</h1>
           </div>
-          <Contact tagline={'Let\'s become internet bffs?'} />
+          <Contact tagline="Let's become internet bffs?" />
         </div>
         <div className="homepage-header__projects">
           <a href="#projects">Projects Below</a>
