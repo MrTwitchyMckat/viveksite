@@ -21,6 +21,10 @@
   }
 }
 
+.titles {
+  padding-bottom: rem(30px);
+}
+
 .homepage-header__title {
   font-family: 'Poppins', sans-serif;
   font-size: rem(100px);
@@ -43,6 +47,9 @@
   }
   @include media('<768px') {
     font-size: rem(60px);
+  }
+  @include media('<480px') {
+    font-size: rem(45px);
   }
 }
 

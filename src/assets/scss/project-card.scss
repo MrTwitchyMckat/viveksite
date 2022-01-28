@@ -46,6 +46,10 @@
     font-size: rem(50px);
     white-space: initial;
   }
+  @include media('<=480px') {
+    font-size: rem(40px);
+    white-space: initial;
+  }
 }
 
 .project-card__background {

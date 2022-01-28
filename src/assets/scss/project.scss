@@ -1,0 +1,58 @@
+@import '../../variables.scss';
+@import 'include-media/dist/include-media';
+
+.project {
+  display: flex;
+  justify-content: center;
+  padding: rem(100px) 0;
+  color: $color-white;
+  width: 100%;
+}
+
+.project__columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project__column {
+  flex: 0 0 calc(45% - 30px);
+  padding-left: 15px;
+  padding-right: 15px;
+  @include media('<=1260px') {
+    flex: 0 0 100%;
+    padding: rem(30px) rem(15px);
+  }
+  @include media('<=480px') {
+    padding: rem(30px) rem(0px);
+  }
+}
+
+.project__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: rem(78px);
+  text-transform: uppercase;
+  margin: rem(5px) 0;
+  line-height: 1;
+}
+
+.project__subhead {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: rem(18px);
+  line-height: 1.6;
+}
+
+.project__body {
+  padding: rem(40px) rem(0);
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: rem(18px);
+  line-height: 1.6;
+}
+
+.project__link {
+  font-family: 'Roboto Mono', sans-serif;
+  color: $color-red;
+  &.--secondary {
+    color: $color-white;
+  }
+}
+
