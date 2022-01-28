@@ -20,7 +20,7 @@ class Haws extends React.Component {
           projectInfo="Parking Widget / Frontend / Developed @ KPS3"
           projectDescription="A fully custom WordPress site for a large hydration and emergency equipment manufacturer. This site is built to market products and get potential customers into the sales funnel for purchasing their equipment. As one of the backend developers on this project my primary role was to work with WP-API and get our custom Vue frontend hooked together."
           projectLink="https://www.hawsco.com/"
-          projectImage="/src/assets/haws-project.png"
+          projectImage="/images/haws-project.png"
         />
       </motion.div>
     );
