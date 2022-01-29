@@ -23,6 +23,9 @@
 
 .titles {
   padding-bottom: rem(30px);
+  @include media('<=480px') {
+    padding-bottom: rem(60px);
+  }
 }
 
 .homepage-header__title {

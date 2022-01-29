@@ -29,8 +29,10 @@ class Contact extends React.Component {
   }
 
   componentDidMount() {
-    const email = document.querySelector('.js-email');
-    email.addEventListener('click', this.copyEmail);
+    const emailEls = document.querySelectorAll('.js-email');
+    emailEls.forEach(email => {
+      email.addEventListener('click', this.copyEmail);
+    });
   }
 
   render() { 
