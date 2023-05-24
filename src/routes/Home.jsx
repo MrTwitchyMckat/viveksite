@@ -19,6 +19,18 @@ class Home extends React.Component {
       <motion.div initial="out" animate="in" exit="out" variants={pageTransition}>
         <HomepageHeader />
         <ProjectCard
+          link="/solera/"
+          title="Solera"
+          image="/images/solera-card.png"
+          delay=".2s"
+          />
+        <ProjectCard
+          link="/fusion/"
+          title="Fusion"
+          image="/images/fusion-card.png"
+          delay=".5s"
+          />
+        <ProjectCard
           link="/heartbreakers/"
           title="Heartbreakers"
           image="/images/hb-card.png"

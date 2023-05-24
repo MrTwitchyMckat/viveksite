@@ -8,6 +8,8 @@ import Heartbreakers from './routes/Heartbreakers';
 import DennisUniform from './routes/DennisUniform';
 import RenoAirport from './routes/RenoAirport';
 import Haws from './routes/Haws';
+import Fusion from './routes/Fusion';
+import Solera from './routes/Solera';
 
 class AnimatedRoutes extends React.Component {
   render() { 
@@ -19,6 +21,8 @@ class AnimatedRoutes extends React.Component {
           <Route path="dennis-uniform" element={<DennisUniform/>}/>
           <Route path="reno-airport" element={<RenoAirport/>}/>
           <Route path="haws" element={<Haws/>}/>
+          <Route path="solera" element={<Solera/>}/>
+          <Route path="fusion" element={<Fusion/>}/>
         </Routes>
       </AnimatePresence>
     );

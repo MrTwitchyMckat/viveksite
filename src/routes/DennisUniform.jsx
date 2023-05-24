@@ -17,7 +17,7 @@ class DennisUniform extends React.Component {
     return (
       <motion.div initial="out" animate="in" exit="out" variants={pageTransition}>
         <Project
-          projectNumber="2"
+          projectNumber="4"
           projectTitle="Dennis Uniform"
           projectInfo="Shopify Site / Backend / Developed @ KPS3"
           projectDescription="A custom Shopify site built for the leading school uniform seller in the nation. As a backend developer on this project my role was to bridge Shopify’s Liquid with our custom frontend written in Vue."
