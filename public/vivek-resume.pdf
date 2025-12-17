@@ -4,13 +4,13 @@
 <</Type /Page
 /Parent 1 0 R
 /Resources 2 0 R
-/MediaBox [0 0 595.2755905511811534 1485.3543307086615641]
+/MediaBox [0 0 595.2755905511811534 1394.6456692913386632]
 /Contents 4 0 R
 >>
 endobj
 4 0 obj
 <<
-/Length 10804
+/Length 9124
 >>
 stream
 0.5670000000000001 w
@@ -19,537 +19,507 @@ BT
 /F2 28 Tf
 32.1999999999999957 TL
 0 g
-56.6929133858267775 1428.6614173228347227 Td
+56.6929133858267775 1337.9527559055118218 Td
 (Vivek Bhardwaj) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0 g
-56.6929133858267775 1400.3149606299214156 Td
-(vivekbhardwaj.se@gmail.com  |  \(775\) 233-8282  |  Reno, NV  |  linkedin.com/in/vbhardwaj1) Tj
+56.6929133858267775 1309.6062992125985147 Td
+(vivekbhardwaj.se@gmail.com  |  775-233-8282  |  Sparks, NV  |  https://www.linkedin.com/in/vbhardwaj1/) Tj
 ET
 0.88 G
 0.8503937007874016 w
-56.6929133858267775 1377.6377952755906335 m
-538.5826771653544256 1377.6377952755906335 l
+56.6929133858267775 1286.92913385826796 m
+538.5826771653544256 1286.92913385826796 l
 S
 BT
 /F2 14 Tf
 16.0999999999999979 TL
 0 g
-56.6929133858267775 1343.6220472440945741 Td
+56.6929133858267775 1252.9133858267716732 Td
 (PROFESSIONAL SUMMARY) Tj
 ET
 0.88 G
 0.8503937007874016 w
-56.6929133858267775 1335.118110236220673 m
-538.5826771653544256 1335.118110236220673 l
+56.6929133858267775 1244.4094488188977721 m
+538.5826771653544256 1244.4094488188977721 l
 S
 BT
 /F1 10 Tf
 11.5 TL
 0 g
-56.6929133858267775 1306.7716535433071385 Td
-(Frontend Developer passionate about building fast, intuitive, and scalable web experiences. From integrating) Tj
-T* (systems like Contentful, Algolia, and AWS to designing seamless user interfaces in Vue, React and Tailwind,) Tj
-T* (I focus on creating high-impact features that drive performance, consistency, and collaboration across teams.) Tj
+56.6929133858267775 1216.0629921259842376 Td
+(Frontend developer focused on fast, consistent, and scalable web experiences. I build production UI across) Tj
+T* (marketing + product surfaces, partner closely with design, and ship performance and workflow improvements) Tj
+T* (across modern stacks.) Tj
 ET
 BT
 /F2 14 Tf
 16.0999999999999979 TL
 0 g
-56.6929133858267775 1230.2362204724411185 Td
+56.6929133858267775 1139.5275590551182177 Td
 (EXPERIENCE) Tj
 ET
 0.88 G
 0.8503937007874016 w
-56.6929133858267775 1221.73228346456699 m
-538.5826771653544256 1221.73228346456699 l
+56.6929133858267775 1131.0236220472443165 m
+538.5826771653544256 1131.0236220472443165 l
 S
 BT
 /F2 11 Tf
 12.6499999999999986 TL
 0 g
-56.6929133858267775 1193.385826771653683 Td
+56.6929133858267775 1102.6771653543307821 Td
 (Frontend Developer) Tj
 ET
 BT
 /F3 10 Tf
 11.5 TL
 0 g
-450.8826771653543801 1193.385826771653683 Td
-(April 2024 - Present) Tj
+448.6826771653543346 1102.6771653543307821 Td
+(April 2024 – Present) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.392 g
-56.6929133858267775 1176.3779527559056532 Td
+56.6929133858267775 1085.6692913385827524 Td
 (Samsara) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 1153.7007874015748712 Td
+62.3622047244094517 1062.9921259842519703 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 1153.7007874015748712 Td
-(Lead frontend development for several high-impact marketing and product experiences on) Tj
-T* (Samsara.com, including the new AI-powered site search + chat, Video Hub, and interactive data) Tj
-T* (visualizations used by hundreds of thousands of users.) Tj
+76.5354330708661479 1062.9921259842519703 Td
+(Led frontend delivery for high-traffic experiences across Samsara.com \(AI site search + chat, Video) Tj
+T* (Hub, interactive visualizations\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 1105.5118110236221582 Td
+62.3622047244094517 1028.9763779527559109 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 1105.5118110236221582 Td
-(Built features end-to-end with Vue 3, Nuxt, Tailwind, SCSS, Node-based tooling, and AWS-powered) Tj
-T* (services, working across REST and lightweight GraphQL integrations with Contentful.) Tj
+76.5354330708661479 1028.9763779527559109 Td
+(Shipped end-to-end features with a focus on performance, accessibility, and responsive UI quality) Tj
+T* (across devices.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 1071.4960629921260988 Td
+62.3622047244094517 994.9606299212598515 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 1071.4960629921260988 Td
-(Developed an AI-assisted design-to-code pipeline using Figma MCP, Cursor, and Jira MCP to) Tj
-T* (auto-generate frontend components and streamline engineering workflows.) Tj
+76.5354330708661479 994.9606299212598515 Td
+(Improved delivery workflows by building an AI-assisted design-to-code pipeline \(component generation) Tj
+T* (+ ticket linkage\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 1037.4803149606300394 Td
+62.3622047244094517 960.9448818897637921 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 1037.4803149606300394 Td
-(Drove architectural discussions, documenting technical decisions, iteration plans, async communication,) Tj
-T* (and stakeholder alignment across design, product, and engineering.) Tj
+76.5354330708661479 960.9448818897637921 Td
+(Strengthened engineering execution via clearer technical docs, PR hygiene, and cross-team alignment) Tj
+T* (on implementation plans.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 1003.46456692913398 Td
+62.3622047244094517 926.9291338582677326 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 1003.46456692913398 Td
-(Designed and engineered author-friendly UI systems and component frameworks that scale across) Tj
-T* (Samsara’s multi-platform ecosystem, including Thought Industries and Contentful.) Tj
+76.5354330708661479 926.9291338582677326 Td
+(Reduced page cost and improved performance by optimizing bundles/render paths and coordinating) Tj
+T* (fixes with platform teams.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 969.4488188976379206 Td
+62.3622047244094517 892.9133858267716732 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 969.4488188976379206 Td
-(Partnered closely with designers and marketing to ensure pixel-level UI quality, UX consistency,) Tj
-T* (accessibility, and responsiveness across devices.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 935.4330708661418612 Td
-(•) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-76.5354330708661479 935.4330708661418612 Td
-(Collaborated with backend and platform teams to improve performance, reduce bundle size, optimize) Tj
-T* (rendering costs, and streamline page delivery paths.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 901.4173228346458018 Td
-(•) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-76.5354330708661479 901.4173228346458018 Td
-(Contributed to team-wide engineering improvements including GitHub workflow enhancements, PR) Tj
-T* (sizing, structured code reviews, and AI-assisted development workflows.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 867.4015748031497424 Td
-(•) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-76.5354330708661479 867.4015748031497424 Td
-(Worked in highly agile, iterative development cycles with rapid delivery expectations and clear) Tj
-T* (communication of progress, risks, and architectural considerations.) Tj
+76.5354330708661479 892.9133858267716732 Td
+(Tech: Vue 3, Nuxt, Tailwind, SCSS, Contentful, Algolia, AWS, REST/GraphQL, MCP servers, Figma,) Tj
+T* (Cursor) Tj
 ET
 BT
 /F2 11 Tf
 12.6499999999999986 TL
 0. g
-56.6929133858267775 802.204724409448886 Td
+56.6929133858267775 827.7165354330709306 Td
+(Contract Frontend Software Engineer) Tj
+ET
+BT
+/F3 10 Tf
+11.5 TL
+0. g
+386.2826771653543574 827.7165354330709306 Td
+(December 2024 – December 2025) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.392 g
+56.6929133858267775 810.7086614173229009 Td
+(Automox) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+62.3622047244094517 788.0314960629921188 Td
+(•) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+76.5354330708661479 788.0314960629921188 Td
+(Built and shipped frontend features in a production web application using React and TypeScript.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+62.3622047244094517 768.1889763779528266 Td
+(•) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+76.5354330708661479 768.1889763779528266 Td
+(Implemented UI updates from product and design specs with attention to usability, accessibility, and) Tj
+T* (consistency.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+62.3622047244094517 734.1732283464566535 Td
+(•) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+76.5354330708661479 734.1732283464566535 Td
+(Added and maintained automated tests to improve reliability and prevent regressions across key user) Tj
+T* (flows.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+62.3622047244094517 700.1574803149605941 Td
+(•) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+76.5354330708661479 700.1574803149605941 Td
+(Contributed across the stack, including updates in a Laravel/PHP codebase when needed.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+62.3622047244094517 680.3149606299213019 Td
+(•) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0. g
+76.5354330708661479 680.3149606299213019 Td
+(Tech: React, TypeScript, CSS, Cypress, Vitest, Laravel/PHP) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0. g
+56.6929133858267775 629.2913385826772128 Td
 (Frontend Developer) Tj
 ET
 BT
 /F3 10 Tf
 11.5 TL
 0. g
-432.6826771653543346 802.204724409448886 Td
-(March 2022 - April 2024) Tj
+430.482677165354346 629.2913385826772128 Td
+(March 2022 – April 2024) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.392 g
-56.6929133858267775 785.1968503937008563 Td
+56.6929133858267775 612.2834645669291831 Td
 (Terakeet) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 762.519685039370188 Td
+62.3622047244094517 589.606299212598401 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 762.519685039370188 Td
-(Developed and maintained internal tools using Vue 2 and Vue 3, including a pricing tool, customer) Tj
-T* (success wiki, admin dashboard, and a Sigma-powered data dashboard.) Tj
+76.5354330708661479 589.606299212598401 Td
+(Built and maintained internal tools including a pricing tool, customer success wiki, admin dashboard, and) Tj
+T* (data visualizations.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 728.5039370078741285 Td
+62.3622047244094517 555.5905511811023416 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 728.5039370078741285 Td
-(Integrated data from internal and external APIs \(e.g., Contentful, Algolia\) with Axios, performing GET,) Tj
-T* (POST, PUT, and DELETE operations to ensure seamless data flows.) Tj
+76.5354330708661479 555.5905511811023416 Td
+(Integrated APIs and search systems to support scalable, data-driven frontend experiences.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 694.4881889763780691 Td
+62.3622047244094517 535.7480314960629357 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 694.4881889763780691 Td
-(Wrote and maintained automated Jest and Vitest unit and component tests to increase reliability, reduce) Tj
-T* (regression risk, and support a consistent, scalable frontend architecture.) Tj
+76.5354330708661479 535.7480314960629357 Td
+(Improved application reliability through unit and component testing and proactive bug prevention.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 660.472440944881896 Td
+62.3622047244094517 515.9055118110236435 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 660.472440944881896 Td
-(Collaborated daily with UX/UI designers, balancing aesthetics and functionality to deliver user-centric) Tj
-T* (solutions that meet both performance and design requirements.) Tj
+76.5354330708661479 515.9055118110236435 Td
+(Scaled reusable UI patterns by collaborating closely with UX and maintaining shared component) Tj
+T* (libraries.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 626.4566929133858366 Td
+62.3622047244094517 481.8897637795275841 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 626.4566929133858366 Td
-(Co-led frontend team syncs to maintain a consistent design system and build reusable components,) Tj
-T* (ensuring cohesive UI/UX across applications and adherence to coding standards.) Tj
+76.5354330708661479 481.8897637795275841 Td
+(Documented frontend standards and common issues to improve onboarding and development velocity.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 592.4409448818897772 Td
+62.3622047244094517 462.0472440944881782 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 592.4409448818897772 Td
-(Created and maintained frontend documentation, including coding standards, an Algolia search) Tj
-T* (integration guide, and a “Common Bugs” Confluence page for shared troubleshooting.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 558.4251968503937178 Td
-(•) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-76.5354330708661479 558.4251968503937178 Td
-(Took ownership of projects in a small team, self-managing timelines, scoping requirements, and) Tj
-T* (coordinating with backend teams to deliver high-quality work across multiple applications.) Tj
+76.5354330708661479 462.0472440944881782 Td
+(Tech: Vue 2/3, TypeScript/JavaScript, Axios, Contentful, Algolia, Vitest, Jest, Sigma) Tj
 ET
 BT
 /F2 11 Tf
 12.6499999999999986 TL
 0. g
-56.6929133858267775 493.2283464566929752 Td
+56.6929133858267775 411.0236220472440891 Td
 (Web Developer) Tj
 ET
 BT
 /F3 10 Tf
 11.5 TL
 0. g
-403.9826771653544029 493.2283464566929752 Td
-(September 2019 - March 2022) Tj
+401.7826771653543005 411.0236220472440891 Td
+(September 2019 – March 2022) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.392 g
-56.6929133858267775 476.2204724409449454 Td
+56.6929133858267775 394.0157480314960594 Td
 (KPS3) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 453.5433070866142771 Td
+62.3622047244094517 371.3385826771652773 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 453.5433070866142771 Td
-(Developed frontend web experiences with JavaScript, Vue.js, React.js, HTML, and CSS.) Tj
+76.5354330708661479 371.3385826771652773 Td
+(Developed client websites across Vue/React/JS with modern HTML/CSS and performance best) Tj
+T* (practices.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 433.7007874015748712 Td
+62.3622047244094517 337.3228346456692179 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 433.7007874015748712 Td
-(Integrated custom Elementor components for WordPress using PHP.) Tj
+76.5354330708661479 337.3228346456692179 Td
+(Built Shopify Plus experiences with Liquid + custom themes and established a repeatable release) Tj
+T* (process.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 413.8582677165354653 Td
+62.3622047244094517 303.3070866141731585 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 413.8582677165354653 Td
-(Constructed a PDF generation API using Express.js, and Puppeteer.js.) Tj
+76.5354330708661479 303.3070866141731585 Td
+(Delivered WordPress features including custom Elementor components and theme enhancements in) Tj
+T* (PHP.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 394.0157480314960594 Td
+62.3622047244094517 269.2913385826770991 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 394.0157480314960594 Td
-(Established and implemented a code release process for Shopify Plus.) Tj
+76.5354330708661479 269.2913385826770991 Td
+(Improved site performance and accessibility through code splitting, async loading, and AA compliance) Tj
+T* (work.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 374.1732283464566535 Td
+62.3622047244094517 235.2755905511810397 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 374.1732283464566535 Td
-(Built and Maintained several Shopify Plus Websites using Liquid, JavaScript, SASS, and Vue.) Tj
+76.5354330708661479 235.2755905511810397 Td
+(Built a PDF generation service using Express + Puppeteer for automated document output.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-62.3622047244094517 354.3307086614172476 Td
+62.3622047244094517 215.4330708661416338 Td
 (•) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0. g
-76.5354330708661479 354.3307086614172476 Td
-(Improved website performance by implementing optimization techniques such as code splitting,) Tj
-T* (deferring code, and async loading.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 320.3149606299211882 Td
-(•) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-76.5354330708661479 320.3149606299211882 Td
-(Automated a CI/CD process for WordPress with GitHub actions.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 300.4724409448820097 Td
-(•) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-76.5354330708661479 300.4724409448820097 Td
-(Implemented accessibility best practices to update and maintain website compliance with AA standards.) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-62.3622047244094517 280.6299212598426038 Td
-(•) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-76.5354330708661479 280.6299212598426038 Td
-(Contributed to the development and testing of a custom WordPress theme.) Tj
+76.5354330708661479 215.4330708661416338 Td
+(Tech: JavaScript, Vue, React, Liquid, Shopify Plus, WordPress, PHP, Express, Puppeteer, GitHub) Tj
+T* (Actions) Tj
 ET
 BT
 /F2 14 Tf
 16.0999999999999979 TL
 0. g
-56.6929133858267775 229.6062992125985147 Td
+56.6929133858267775 150.2362204724408912 Td
 (EDUCATION) Tj
 ET
 0.88 G
 0.8503937007874016 w
-56.6929133858267775 221.102362204724443 m
-538.5826771653544256 221.102362204724443 l
+56.6929133858267775 141.7322834645669332 m
+538.5826771653544256 141.7322834645669332 l
 S
 BT
 /F2 11 Tf
 12.6499999999999986 TL
 0. g
-56.6929133858267775 192.7559055118110791 Td
-(Bachelor of Science - Information Systems) Tj
+56.6929133858267775 113.3858267716534556 Td
+(B.S. Information Systems) Tj
 ET
 BT
 /F3 10 Tf
 11.5 TL
 0. g
-485.6826771653544483 192.7559055118110791 Td
-(2015 - 2019) Tj
+483.4826771653544597 113.3858267716534556 Td
+(2015 – 2019) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.392 g
-56.6929133858267775 175.7480314960630494 Td
+56.6929133858267775 96.3779527559054259 Td
 (University of Nevada, Reno) Tj
-ET
-BT
-/F2 14 Tf
-16.0999999999999979 TL
-0. g
-56.6929133858267775 136.0629921259842376 Td
-(SKILLS) Tj
-ET
-0.88 G
-0.8503937007874016 w
-56.6929133858267775 127.5590551181102512 m
-538.5826771653544256 127.5590551181102512 l
-S
-BT
-/F1 10 Tf
-11.5 TL
-0. g
-56.6929133858267775 99.2125984251968021 Td
-(JavaScript, Typescript HTML, CSS/SCSS, Tailwind, Vue.js, React.js, Nuxt.js, Git, Cursor AI, Prompt) Tj
-T* (Engineering, MCP Implementation and Usage, Figma) Tj
 ET
 endstream
 endobj
@@ -723,7 +693,7 @@ endobj
 19 0 obj
 <<
 /Producer (jsPDF 2.5.1)
-/CreationDate (D:20251210161134-08'00')
+/CreationDate (D:20251216233023-08'00')
 >>
 endobj
 20 0 obj
@@ -737,33 +707,33 @@ endobj
 xref
 0 21
 0000000000 65535 f 
-0000011010 00000 n 
-0000012827 00000 n 
+0000009329 00000 n 
+0000011146 00000 n 
 0000000015 00000 n 
 0000000153 00000 n 
-0000011067 00000 n 
-0000011192 00000 n 
-0000011322 00000 n 
-0000011455 00000 n 
-0000011592 00000 n 
-0000011715 00000 n 
-0000011844 00000 n 
-0000011976 00000 n 
-0000012112 00000 n 
-0000012240 00000 n 
-0000012367 00000 n 
-0000012496 00000 n 
-0000012629 00000 n 
-0000012731 00000 n 
-0000013075 00000 n 
-0000013161 00000 n 
+0000009386 00000 n 
+0000009511 00000 n 
+0000009641 00000 n 
+0000009774 00000 n 
+0000009911 00000 n 
+0000010034 00000 n 
+0000010163 00000 n 
+0000010295 00000 n 
+0000010431 00000 n 
+0000010559 00000 n 
+0000010686 00000 n 
+0000010815 00000 n 
+0000010948 00000 n 
+0000011050 00000 n 
+0000011394 00000 n 
+0000011480 00000 n 
 trailer
 <<
 /Size 21
 /Root 20 0 R
 /Info 19 0 R
-/ID [ <110955A801B6AB52BB505616CF872885> <110955A801B6AB52BB505616CF872885> ]
+/ID [ <0EA43703EDBC85EDEE2F429AEA548D3D> <0EA43703EDBC85EDEE2F429AEA548D3D> ]
 >>
 startxref
-13265
+11584
 %%EOF
